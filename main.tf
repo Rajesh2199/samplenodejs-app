@@ -4,6 +4,6 @@ resource "aws_instance" "node-app_server" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "WeatherApp"
+    Name = "SDWeatherApp"
   }
 }
