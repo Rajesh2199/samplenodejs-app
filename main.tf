@@ -1,3 +1,4 @@
+
 resource "aws_instance" "node-app_server" {
   ami           = "ami-026b57f3c383c2eec"
   instance_type = "t2.micro"
@@ -5,3 +6,4 @@ resource "aws_instance" "node-app_server" {
   tags = {
     Name = "WeatherApp"
   }
+}
